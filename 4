@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int A, B, C;
+	cout << "Vvedite A ,B ,C" << endl;
+	cin >> A >> B >> C;
+	int k = (A * B) / (pow(C, 2));
+	int s = (A * B) - (pow(C, 2)) * k;
+	cout << "k=" << k << endl;
+	cout << "S=" << s << endl;
+	return 0;
+}
