@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int k,n;
+	cout << "Vvedite x" << endl;
+	cin >> k >> n;
+	if ((k+n-1 )% 7 == 1){
+		cout << "Ponedenlik" << endl;
+	}
+	if ((k+n-1) % 7 == 2) {
+		cout << "Vtornik" << endl;
+	}
+	if ((k+n-1)%7 == 3) {
+		cout << "Sreda" << endl;
+	}
+	if ((k + n-1 )%7 == 4) {
+		cout << "4etverg" << endl;
+	}
+	if ((k + n-1)%7 == 5) {
+		cout << "Pyatnica" << endl;
+	}
+	if ((k + n -1)%7 == 6) {
+		cout << "Subbota" << endl;
+	}
+	if ((k + n -1)%7 == 0) {
+		cout << "Voskresenie" << endl;
+	}
+	return 0;
+}
